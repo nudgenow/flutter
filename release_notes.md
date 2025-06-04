@@ -191,3 +191,13 @@
 
 - FIX: Fixed issue where app component label was unexpectedly updated during lifecycle
   events [ANDROID]
+
+## 4.1.0
+
+- IMPROVEMENT: Added support for iOS 12.0 and above [iOS]
+
+## 4.1.1
+
+- IMPROVEMENT: Added strict type checking for invalid data types in event and track
+  properties [iOS, ANDROID]
+- REFACTOR: Refactored logging and error handling for better clarity [iOS, ANDROID]
