@@ -191,3 +191,167 @@
 
 - FIX: Fixed issue where app component label was unexpectedly updated during lifecycle
   events [ANDROID]
+
+## 4.1.0
+
+- IMPROVEMENT: Added support for iOS 12.0 and above [iOS]
+
+## 4.1.1
+
+- IMPROVEMENT: Added strict type checking for invalid data types in event and track
+  properties [iOS, ANDROID]
+- REFACTOR: Refactored logging and error handling for better clarity [iOS, ANDROID]
+
+## 4.1.2
+
+- IMPROVEMENT: Enhanced logging and method channel handling for better debugging [iOS, ANDROID]
+
+## 4.1.3
+
+- FIX: Handled multiple engines being created in the same app [iOS, ANDROID]
+
+## 4.1.4
+
+- IMPROVEMENT: Removed `FileProvider` dependency to avoid conflicts with other
+  plugins [ANDROID]
+- FIX: Users can now upload screenshots without marking any widgets [iOS, ANDROID]
+
+## 4.2.0
+
+- FEATURE: Added support for getting user details [iOS, ANDROID]
+- IMPROVEMENT: Fixed dependency clash for RiveRuntime on iOS 12.0 [iOS]
+
+## 4.2.2
+
+- FIX: Enhanced method channel handling and multi-engine scenarios handled [ANDROID]
+
+## 4.2.3
+
+- FIX: Enhanced method channel handling and multi-engine scenarios handled [ANDROID]
+
+## 4.3.0
+
+- FEATURE: Added support to clear experiences [iOS, ANDROID]
+- IMPROVEMENT: Enhanced method channel handling and multi-engine scenarios handled [iOS, ANDROID]
+
+## 4.3.1
+
+- FIX: Using screen size from `PlatformDispatcher` to avoid issues with `MediaQuery` [iOS, ANDROID]
+
+## 4.3.2
+
+- FIX: Fixed issue with `MediaQuery` and `PlatformDispatcher` not being available in some
+  scenarios [iOS]
+
+## 4.3.3
+
+- FIX: Remove the screen blocking logic from the scroll [iOS, ANDROID]
+
+## 4.3.4
+
+- IMPROVEMENT: Added Thread safe implementation for callbacks [iOS, ANDROID]
+
+## 4.3.5
+
+- IMPROVEMENT: Added method to update registrar [iOS]
+
+## 4.3.6
+
+- IMPROVEMENT: Improved method channel communication in multi-engine setup [iOS]
+
+## 4.3.7
+
+- FIX: Minor Bug Fix [iOS]
+
+## 5.0.0
+
+- MAJOR RELEASE: Breaking Changes - Android and iOS SDKs updated to latest versions
+- FEATURE: Added support for google fonts
+- FIX: Surveys and Nudges fixed
+
+## 5.0.1
+
+- IMPROVEMENT: Native SDKs updated to latest versions [iOS, ANDROID]
+- FIXES: App Component and Stories sizing during navigation [iOS, ANDROID]
+
+## 5.0.2
+
+- IMPROVEMENT: Improved empty API Key handling [iOS]
+
+## 5.0.3
+
+- IMPROVEMENT: Handled empty API Key and uninitialized Nudge [iOS, ANDROID]
+
+## 5.0.4
+
+- FEATURE: Added `disableNudge` flag to disable Nudge in the app [iOS, ANDROID]
+
+## 5.0.5
+
+- IMPROVEMENT: Native SDKs bumped [iOS, ANDROID]
+
+## 5.0.6
+
+- IMPROVEMENT: Made `disableNudge` flag more optional [iOS, ANDROID]
+- IMPROVEMENT: Improved app component rendering [ANDROID]
+
+## 5.0.7
+
+- IMPROVEMENT: Nudges will not show if target is out of bounds [iOS, ANDROID]
+
+## 5.0.8
+
+- IMPROVEMENT: Nudges will not show if target is moving [iOS, ANDROID]
+
+## 5.0.9
+
+- IMPROVEMENT: Nudge shutdown on all channels [iOS]
+
+## 5.0.10
+
+- IMPROVEMENT: App component improved [iOS, ANDROID]
+
+## 5.0.11
+
+- FIX: Nudges scaling improved [ANDROID]
+- CHORE: Downgraded `url_launcher` to support lower dart SDK versions [iOS, ANDROID]
+
+## 5.0.12
+
+- FIX: Nudges fixed for iOS [iOS]
+
+## 5.0.13
+
+- FIX: App component initial size glitch fixed [ANDROID]
+
+## 5.0.14
+
+- Rx dart downgraded
+
+## 6.0.0
+
+- Major Release
+
+## 6.0.1
+
+- IMPROVEMENT: Handled callbacks for multiple flutter engines 
+
+## 6.0.2
+
+- IMPROVEMENT: Handled callbacks for multiple flutter engines 
+
+## 6.0.3
+
+- FIX : updateAll method fixed for nullable string
+
+## 6.1.0-alpha
+
+- Added the wrapper support for tracking widgets for In App Nudges
+
+## 6.1.1
+
+- Releasing wrapper support for all customers.
+
+## 7.0.0
+
+- Stable Release. Removed auto update for native SDKs
